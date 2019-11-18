@@ -1,0 +1,70 @@
+body {
+    background: lightcoral;
+    color: blueviolet;
+    font-family: initial;
+    border-left: 50px solid blueviolet;
+    border-right: 50px solid blueviolet;
+    border-top: 30px solid blueviolet;
+    border-bottom: 30px solid blueviolet;
+}
+
+div {
+    min-height: 20vh;
+    border: 10px dashed blueviolet;
+    margin: 10px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+img{
+    display: flex;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 40%;
+}
+/* img#duck{
+    transition: all 2s;
+}
+
+
+img:hover {
+    transform: rotate(360dg);
+    filter: hue-rotate(360dg);
+} */
+
+ol {
+    font-size: 1.1em;
+    justify-content: space-evenly;
+    display: flex;
+    list-style: none;
+    padding: 0;
+
+}
+
+
+/* li#lower {
+  margin-top: 7%;
+}
+
+li#lowest {
+  margin-top: 14%;
+} */
+
+.contrast{
+    transition: 0.5s ease;
+    text-align: center;
+}
+.contrast:hover {
+    background: blueviolet;
+    color: lightcoral;
+}
+ul{
+    font-size: 1.1em;
+    align-content: center;
+}
